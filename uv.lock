@@ -25,6 +25,7 @@ dependencies = [
     { name = "pandas" },
     { name = "pydantic-ai" },
     { name = "streamlit" },
+    { name = "uvicorn" },
 ]
 
 [package.metadata]
@@ -36,6 +37,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.1.0" },
     { name = "pydantic-ai", specifier = ">=2.63.0" },
     { name = "streamlit", specifier = ">=1.66.1" },
+    { name = "uvicorn", specifier = ">=0.54.0" },
 ]
 
 [[package]]
